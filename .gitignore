@@ -1,3 +1,27 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+out
+out/
+logs/
+gradle/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+.DS_Store
+
 # Compiled class file
 *.class
 
@@ -9,12 +33,6 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# ide
-*.idea
-
-# gradle
-*.gradle
 
 # Package Files #
 *.jar
